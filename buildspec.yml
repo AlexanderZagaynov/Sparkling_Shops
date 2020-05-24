@@ -1,0 +1,6 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+       - yarn install --production --non-interactive --frozen-lockfile --cwd nodejs/node_modules
